@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=971
+
+Checking long long log files are boring jobs especially those files contain
+the continuous same lines. 
+But why don\\&#039t you fold the continuous same lines with this \\\"folds.vim\\\".
+It folds the continuous same lines more than 4 to 2 lines and one folded line.
+Folds.vim contains
+{range}Fold0: Fold the continuous same lines. No column arguments. 
+{range}Fold1 c1 c2:
+            Fold the continuous same lines of columns b/n c1 and c2.
+{range}Fold2 c1 c2:
+            Fold the continuous same lines ignoring columns b/n c1 and c2.
+Note that column number c1 and c2 starts with 0, but not 1.
